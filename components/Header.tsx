@@ -54,16 +54,15 @@ export default function Header() {
             <a
               href={`tel:${bnbInfo.contact.phone}`}
               className="text-coastal-600 hover:text-coastal-700 transition-colors"
+              aria-label="Call us"
             >
               <Phone className="w-5 h-5" />
             </a>
             <a
               href={bnbInfo.bookingOptions.bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-coastal-500 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-coastal-600 transition-all shadow-soft hover:shadow-coastal hover:scale-105"
             >
-              Book Now
+              Call to Book
             </a>
           </div>
 
@@ -112,11 +111,9 @@ export default function Header() {
                 </a>
                 <a
                   href={bnbInfo.bookingOptions.bookingUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="block w-full text-center bg-coastal-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-coastal-600 transition-all"
                 >
-                  Book Now
+                  Call to Book
                 </a>
               </div>
             </div>

@@ -5,6 +5,7 @@ import Amenities from '@/components/Amenities'
 import LocalArea from '@/components/LocalArea'
 import Reviews from '@/components/Reviews'
 import About from '@/components/About'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <About />
         <LocalArea />
         <Reviews />
+        <Contact />
       </main>
       <Footer />
     </>
