@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gradient-to-b from-coastal-50 to-cream-50 text-slate-800;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    @apply text-slate-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-coastal-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-coastal-600 transition-all duration-300 shadow-coastal hover:shadow-lifted hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply bg-sage-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-sage-600 transition-all duration-300 shadow-sage hover:shadow-lifted hover:scale-105 active:scale-95;
+  }
+
+  .btn-accent {
+    @apply bg-warm-gold-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-warm-gold-600 transition-all duration-300 shadow-warm hover:shadow-lifted hover:scale-105 active:scale-95;
+  }
+
+  .btn-outline {
+    @apply border-2 border-coastal-500 text-coastal-700 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-coastal-500 hover:text-white transition-all duration-300 shadow-soft hover:shadow-coastal hover:scale-105 active:scale-95;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-soft p-8 border border-slate-100 hover:shadow-lifted hover:scale-[1.02] transition-all duration-300 hover:border-coastal-200;
+  }
+
+  .card-room {
+    @apply bg-white rounded-3xl shadow-lifted overflow-hidden border border-slate-100 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500;
+  }
+
+  .card-testimonial {
+    @apply bg-gradient-to-br from-white via-cream-50 to-coastal-50 rounded-2xl p-8 shadow-soft border border-slate-100 hover:shadow-lifted transition-all duration-300;
+  }
+
+  .text-gradient-coastal {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-coastal-600 via-coastal-500 to-sage-500;
+  }
+
+  .text-gradient-warm {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-warm-gold-500 to-warm-gold-600;
+  }
+
+  .hero-pattern {
+    background-image:
+      radial-gradient(circle at 20% 80%, rgba(14, 165, 233, 0.06) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(92, 111, 92, 0.06) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, rgba(233, 167, 48, 0.04) 0%, transparent 50%);
+  }
+
+  .nav-link {
+    @apply text-slate-700 hover:text-coastal-600 font-medium transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-coastal-500 hover:after:w-full after:transition-all after:duration-300;
+  }
+
+  .section-heading {
+    @apply text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6 text-slate-900;
+  }
+
+  .section-subheading {
+    @apply text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto mb-16;
+  }
+
+  .input-field {
+    @apply w-full px-6 py-4 border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-coastal-500 focus:border-transparent transition-all duration-200 bg-white;
+  }
+
+  .textarea-field {
+    @apply w-full px-6 py-4 border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-coastal-500 focus:border-transparent transition-all duration-200 min-h-[150px] resize-y bg-white;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-4 py-2 rounded-full bg-coastal-100 text-coastal-700 font-semibold text-sm;
+  }
+
+  .badge-star {
+    @apply inline-flex items-center px-4 py-2 rounded-full bg-warm-gold-100 text-warm-gold-700 font-semibold text-sm;
+  }
+
+  .divider {
+    @apply w-full h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent my-12;
+  }
+
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
+
+  .animation-delay-1000 {
+    animation-delay: 1000ms;
+  }
+}
+
+/* Custom scrollbar for B&B theme */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f9ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0ea5e9 0%, #0284c7 100%);
+  border-radius: 7px;
+  border: 2px solid #f0f9ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0284c7 0%, #0369a1 100%);
+}
+
+/* Selection colors */
+::selection {
+  background: #0ea5e9;
+  color: white;
+}
+
+::-moz-selection {
+  background: #0ea5e9;
+  color: white;
+}
+
+/* Smooth transitions for all interactive elements */
+button, a, input, textarea, select {
+  @apply transition-all duration-200;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-coastal-500;
+}
+
+/* Floating blob animations for hero */
+@keyframes blob {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(20px, -20px) scale(1.1);
+  }
+  50% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  75% {
+    transform: translate(-10px, -10px) scale(1.05);
+  }
+}
+
+.animate-blob {
+  animation: blob 8s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}

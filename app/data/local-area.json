@@ -1,0 +1,163 @@
+{
+  "attractions": [
+    {
+      "name": "Cliffs of Moher",
+      "category": "Natural Wonder",
+      "distance": "6 km",
+      "duration": "10 minutes drive",
+      "description": "Ireland's most visited natural attraction. Towering 214m above the Atlantic, with breathtaking views of the Aran Islands and Galway Bay.",
+      "icon": "mountain",
+      "highlight": true
+    },
+    {
+      "name": "The Burren",
+      "category": "Natural Wonder",
+      "distance": "5 km",
+      "duration": "8 minutes drive",
+      "description": "Unique limestone landscape with rare flora, ancient monuments, and spectacular walking trails.",
+      "icon": "trees",
+      "highlight": true
+    },
+    {
+      "name": "Doolin Cave",
+      "category": "Cave",
+      "distance": "2 km",
+      "duration": "5 minutes drive",
+      "description": "Home to the Great Stalactite, one of the world's longest free-hanging stalactites at 7.3 meters.",
+      "icon": "gem",
+      "highlight": false
+    },
+    {
+      "name": "Aran Islands Ferry",
+      "category": "Island Trip",
+      "distance": "1 km",
+      "duration": "Walking distance",
+      "description": "Daily ferries to Inis Oírr, Inis Meáin, and Inis Mór. Experience traditional Irish island life.",
+      "icon": "ship",
+      "highlight": true
+    },
+    {
+      "name": "Doolin Pier & Harbour",
+      "category": "Scenic Spot",
+      "distance": "1.5 km",
+      "duration": "Walking distance",
+      "description": "Charming fishing harbor with coastal walks and stunning sunset views.",
+      "icon": "anchor",
+      "highlight": false
+    },
+    {
+      "name": "Traditional Music Pubs",
+      "category": "Music & Culture",
+      "distance": "500 m",
+      "duration": "Walking distance",
+      "description": "Doolin is Ireland's music capital. Nightly trad sessions at McGann's, Gus O'Connor's, and McDermott's.",
+      "icon": "music",
+      "highlight": true
+    },
+    {
+      "name": "Ailwee Cave",
+      "category": "Cave",
+      "distance": "12 km",
+      "duration": "15 minutes drive",
+      "description": "Ancient cave system with underground waterfall and Birds of Prey Centre.",
+      "icon": "mountain-snow",
+      "highlight": false
+    },
+    {
+      "name": "Lahinch Beach",
+      "category": "Beach",
+      "distance": "8 km",
+      "duration": "12 minutes drive",
+      "description": "Blue Flag beach and Ireland's premier surfing destination. Great for families.",
+      "icon": "waves",
+      "highlight": false
+    }
+  ],
+  "activities": [
+    {
+      "name": "Cliff Walking",
+      "type": "Outdoor",
+      "description": "Coastal cliff walks with spectacular views. Various difficulty levels available.",
+      "icon": "footprints"
+    },
+    {
+      "name": "Traditional Music Sessions",
+      "type": "Culture",
+      "description": "Experience authentic Irish traditional music in Doolin's famous pubs.",
+      "icon": "music-note"
+    },
+    {
+      "name": "Surfing & Water Sports",
+      "type": "Adventure",
+      "description": "Surf lessons and equipment hire at nearby Lahinch Beach.",
+      "icon": "waves"
+    },
+    {
+      "name": "Rock Climbing",
+      "type": "Adventure",
+      "description": "World-class sport climbing and bouldering in the Burren.",
+      "icon": "mountain"
+    },
+    {
+      "name": "Cycling",
+      "type": "Outdoor",
+      "description": "Cycle the Wild Atlantic Way with stunning coastal scenery.",
+      "icon": "bike"
+    },
+    {
+      "name": "Bird Watching",
+      "type": "Nature",
+      "description": "Spot puffins, razorbills, and other seabirds at the cliffs.",
+      "icon": "bird"
+    },
+    {
+      "name": "Fishing",
+      "type": "Outdoor",
+      "description": "Sea angling trips and shore fishing available locally.",
+      "icon": "fish"
+    },
+    {
+      "name": "Horse Riding",
+      "type": "Outdoor",
+      "description": "Beach and trail rides through the Burren landscape.",
+      "icon": "horse"
+    }
+  ],
+  "dining": [
+    {
+      "name": "Gus O'Connor's Pub",
+      "type": "Traditional Pub",
+      "distance": "800 m",
+      "cuisine": "Irish Pub Food",
+      "priceRange": "€€"
+    },
+    {
+      "name": "The Ivy Cottage",
+      "type": "Restaurant",
+      "distance": "1 km",
+      "cuisine": "Modern Irish",
+      "priceRange": "€€€"
+    },
+    {
+      "name": "McGann's Pub",
+      "type": "Traditional Pub",
+      "distance": "700 m",
+      "cuisine": "Irish Pub Food",
+      "priceRange": "€€"
+    },
+    {
+      "name": "Roadside Tavern",
+      "type": "Gastropub",
+      "distance": "500 m",
+      "cuisine": "Contemporary Irish",
+      "priceRange": "€€"
+    },
+    {
+      "name": "Doolin Deli",
+      "type": "Cafe",
+      "distance": "600 m",
+      "cuisine": "Cafe & Bakery",
+      "priceRange": "€"
+    }
+  ]
+}

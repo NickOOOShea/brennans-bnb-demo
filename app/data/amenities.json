@@ -1,0 +1,125 @@
+{
+  "property": [
+    {
+      "name": "Free WiFi",
+      "icon": "wifi",
+      "description": "High-speed WiFi throughout the property"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "parking-circle",
+      "description": "Secure on-site parking for all guests"
+    },
+    {
+      "name": "Garden",
+      "icon": "flower-2",
+      "description": "Beautiful cottage garden with seating areas"
+    },
+    {
+      "name": "Bike Storage",
+      "icon": "bike",
+      "description": "Secure storage for bicycles and equipment"
+    },
+    {
+      "name": "Laundry Service",
+      "icon": "washing-machine",
+      "description": "Laundry service available on request"
+    },
+    {
+      "name": "Drying Room",
+      "icon": "wind",
+      "description": "Heated drying room for wet weather gear"
+    }
+  ],
+  "breakfast": [
+    {
+      "name": "Full Irish Breakfast",
+      "icon": "utensils",
+      "description": "Award-winning breakfast included"
+    },
+    {
+      "name": "Vegetarian Options",
+      "icon": "leaf",
+      "description": "Vegetarian and vegan breakfast available"
+    },
+    {
+      "name": "Local Produce",
+      "icon": "egg",
+      "description": "Locally sourced ingredients from Clare farms"
+    },
+    {
+      "name": "Dietary Accommodations",
+      "icon": "wheat-off",
+      "description": "Gluten-free and special diets catered for"
+    },
+    {
+      "name": "Fresh Baked Goods",
+      "icon": "croissant",
+      "description": "Homemade brown bread and scones daily"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Ensuite Bathrooms",
+      "icon": "bath",
+      "description": "All rooms have private ensuite facilities"
+    },
+    {
+      "name": "Premium Bedding",
+      "icon": "bed",
+      "description": "Comfortable beds with quality Irish linens"
+    },
+    {
+      "name": "Flat Screen TV",
+      "icon": "tv",
+      "description": "Satellite TV in all rooms"
+    },
+    {
+      "name": "Tea & Coffee",
+      "icon": "coffee",
+      "description": "Complimentary tea and coffee facilities"
+    },
+    {
+      "name": "Hairdryer",
+      "icon": "wind",
+      "description": "Hairdryer and toiletries provided"
+    },
+    {
+      "name": "Iron Available",
+      "icon": "shirt",
+      "description": "Iron and ironing board on request"
+    }
+  ],
+  "services": [
+    {
+      "name": "Tour Information",
+      "icon": "map",
+      "description": "Local area guides and tour booking assistance"
+    },
+    {
+      "name": "Restaurant Recommendations",
+      "icon": "utensils-crossed",
+      "description": "Recommendations and reservations for local dining"
+    },
+    {
+      "name": "Packed Lunches",
+      "icon": "sandwich",
+      "description": "Packed lunches available for day trips"
+    },
+    {
+      "name": "Early/Late Check-in",
+      "icon": "clock",
+      "description": "Flexible check-in times by arrangement"
+    },
+    {
+      "name": "Luggage Storage",
+      "icon": "luggage",
+      "description": "Store your bags before/after your stay"
+    },
+    {
+      "name": "Airport Transfer Info",
+      "icon": "plane",
+      "description": "Help arranging transport from Shannon/Cork airports"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Brennan's Seaside B&B",
+  "tagline": "Your Home Away From Home on the Wild Atlantic Way",
+  "established": 2005,
+  "starRating": 4,
+  "awards": [
+    "Fáilte Ireland Approved",
+    "TripAdvisor Certificate of Excellence 2024",
+    "Irish Breakfast Awards Winner 2023"
+  ],
+  "location": {
+    "village": "Doolin",
+    "county": "Co. Clare",
+    "region": "Wild Atlantic Way"
+  },
+  "address": {
+    "street": "Coast Road",
+    "village": "Doolin",
+    "county": "Co. Clare",
+    "eircode": "V95 Y2P4",
+    "country": "Ireland"
+  },
+  "contact": {
+    "phone": "+353 65 707 4567",
+    "email": "stay@brennansseasidebnb.ie",
+    "bookingEmail": "bookings@brennansseasidebnb.ie",
+    "facebook": "https://facebook.com/brennansseasidebnb",
+    "instagram": "@brennans_seaside_bnb"
+  },
+  "coordinates": {
+    "lat": 53.0147,
+    "lng": -9.3778
+  },
+  "description": "Family-run B&B with stunning ocean views, just minutes from the Cliffs of Moher. Experience warm Irish hospitality, home-cooked breakfasts, and comfortable rooms overlooking the Atlantic.",
+  "story": "The Brennan family has been welcoming guests to Doolin since 2005. What started as a dream to share the beauty of the Wild Atlantic Way has grown into a home away from home for travelers from around the world. Mary and Pat Brennan, along with their daughter Siobhan, take pride in providing genuine Irish hospitality, local knowledge, and unforgettable breakfasts made with ingredients from nearby farms and fishermen.",
+  "quickFacts": {
+    "rooms": 5,
+    "ensuites": 5,
+    "parking": "Free on-site parking",
+    "wifi": "Free high-speed WiFi throughout",
+    "breakfast": "Full Irish breakfast included",
+    "checkIn": "15:00 - 21:00",
+    "checkOut": "07:00 - 11:00"
+  },
+  "bookingOptions": {
+    "direct": true,
+    "directBenefits": ["Best rate guarantee", "Free room upgrade (subject to availability)", "Late checkout on request"],
+    "bookingDotCom": true,
+    "airbnb": true,
+    "bookingUrl": "https://www.booking.com"
+  }
+}

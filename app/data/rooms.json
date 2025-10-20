@@ -1,0 +1,214 @@
+[
+  {
+    "id": "ocean-view-king",
+    "name": "Ocean View King Room",
+    "slug": "ocean-view-king",
+    "description": "Wake up to panoramic Atlantic Ocean views from this spacious king room. Watch the sunrise over the Aran Islands from your private seating area.",
+    "size": "22 sqm",
+    "bedType": "King",
+    "occupancy": {
+      "max": 2,
+      "adults": 2,
+      "children": 0
+    },
+    "view": "Ocean",
+    "floor": "First Floor",
+    "features": [
+      "Panoramic ocean views",
+      "King-size bed with premium linens",
+      "Private ensuite bathroom with power shower",
+      "Comfortable seating area",
+      "Flat-screen TV with satellite channels",
+      "Tea & coffee making facilities",
+      "Hairdryer & toiletries",
+      "Free WiFi",
+      "Blackout curtains"
+    ],
+    "pricing": {
+      "lowSeason": 95,
+      "midSeason": 115,
+      "highSeason": 145,
+      "currency": "EUR",
+      "per": "night"
+    },
+    "images": {
+      "main": "/images/rooms/ocean-view-king-main.jpg",
+      "gallery": [
+        "/images/rooms/ocean-view-king-1.jpg",
+        "/images/rooms/ocean-view-king-2.jpg",
+        "/images/rooms/ocean-view-king-3.jpg"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "id": "garden-double",
+    "name": "Garden View Double Room",
+    "slug": "garden-double",
+    "description": "Cozy double room overlooking our beautiful cottage garden. Perfect for couples seeking peace and tranquility.",
+    "size": "18 sqm",
+    "bedType": "Double",
+    "occupancy": {
+      "max": 2,
+      "adults": 2,
+      "children": 0
+    },
+    "view": "Garden",
+    "floor": "Ground Floor",
+    "features": [
+      "Garden views",
+      "Comfortable double bed",
+      "Private ensuite bathroom with shower",
+      "Flat-screen TV",
+      "Tea & coffee facilities",
+      "Hairdryer & toiletries",
+      "Free WiFi",
+      "Writing desk"
+    ],
+    "pricing": {
+      "lowSeason": 75,
+      "midSeason": 90,
+      "highSeason": 110,
+      "currency": "EUR",
+      "per": "night"
+    },
+    "images": {
+      "main": "/images/rooms/garden-double-main.jpg",
+      "gallery": [
+        "/images/rooms/garden-double-1.jpg",
+        "/images/rooms/garden-double-2.jpg"
+      ]
+    },
+    "popular": false
+  },
+  {
+    "id": "family-room",
+    "name": "Family Room",
+    "slug": "family-room",
+    "description": "Spacious family room with one double bed and two single beds. Ideal for families exploring the Burren and Cliffs of Moher.",
+    "size": "28 sqm",
+    "bedType": "1 Double + 2 Singles",
+    "occupancy": {
+      "max": 4,
+      "adults": 2,
+      "children": 2
+    },
+    "view": "Village",
+    "floor": "First Floor",
+    "features": [
+      "One double bed plus two single beds",
+      "Large ensuite bathroom with bath & shower",
+      "Village views",
+      "Flat-screen TV",
+      "Tea & coffee facilities",
+      "Hairdryer & toiletries",
+      "Free WiFi",
+      "Plenty of storage space",
+      "Children's amenities available"
+    ],
+    "pricing": {
+      "lowSeason": 120,
+      "midSeason": 145,
+      "highSeason": 180,
+      "currency": "EUR",
+      "per": "night"
+    },
+    "images": {
+      "main": "/images/rooms/family-room-main.jpg",
+      "gallery": [
+        "/images/rooms/family-room-1.jpg",
+        "/images/rooms/family-room-2.jpg",
+        "/images/rooms/family-room-3.jpg"
+      ]
+    },
+    "popular": false
+  },
+  {
+    "id": "superior-twin",
+    "name": "Superior Twin Room",
+    "slug": "superior-twin",
+    "description": "Light and airy twin room perfect for friends or colleagues. Features two comfortable single beds and modern amenities.",
+    "size": "20 sqm",
+    "bedType": "2 Singles",
+    "occupancy": {
+      "max": 2,
+      "adults": 2,
+      "children": 0
+    },
+    "view": "Garden",
+    "floor": "Ground Floor",
+    "features": [
+      "Two single beds",
+      "Garden views",
+      "Private ensuite with shower",
+      "Flat-screen TV",
+      "Tea & coffee facilities",
+      "Hairdryer & toiletries",
+      "Free WiFi",
+      "Individual reading lights",
+      "Luggage storage"
+    ],
+    "pricing": {
+      "lowSeason": 80,
+      "midSeason": 95,
+      "highSeason": 120,
+      "currency": "EUR",
+      "per": "night"
+    },
+    "images": {
+      "main": "/images/rooms/superior-twin-main.jpg",
+      "gallery": [
+        "/images/rooms/superior-twin-1.jpg",
+        "/images/rooms/superior-twin-2.jpg"
+      ]
+    },
+    "popular": false
+  },
+  {
+    "id": "atlantic-suite",
+    "name": "Atlantic Suite",
+    "slug": "atlantic-suite",
+    "description": "Our premium suite with separate sitting room and bedroom. Spectacular ocean views, perfect for special occasions and longer stays.",
+    "size": "35 sqm",
+    "bedType": "Super King",
+    "occupancy": {
+      "max": 2,
+      "adults": 2,
+      "children": 0
+    },
+    "view": "Ocean",
+    "floor": "First Floor",
+    "features": [
+      "Separate bedroom and sitting room",
+      "Super king-size bed",
+      "Large ensuite with bathtub & separate shower",
+      "Breathtaking ocean views",
+      "Sofa & armchairs in sitting area",
+      "Flat-screen TV in both rooms",
+      "Mini fridge",
+      "Nespresso coffee machine",
+      "Luxury toiletries",
+      "Bathrobes & slippers",
+      "Free WiFi",
+      "Balcony (seasonal use)"
+    ],
+    "pricing": {
+      "lowSeason": 145,
+      "midSeason": 175,
+      "highSeason": 225,
+      "currency": "EUR",
+      "per": "night"
+    },
+    "images": {
+      "main": "/images/rooms/atlantic-suite-main.jpg",
+      "gallery": [
+        "/images/rooms/atlantic-suite-1.jpg",
+        "/images/rooms/atlantic-suite-2.jpg",
+        "/images/rooms/atlantic-suite-3.jpg",
+        "/images/rooms/atlantic-suite-4.jpg"
+      ]
+    },
+    "popular": true,
+    "featured": true
+  }
+]

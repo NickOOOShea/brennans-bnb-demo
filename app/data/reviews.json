@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "guestName": "Sarah & Michael Thompson",
+    "country": "United States",
+    "date": "2024-09-15",
+    "rating": 5,
+    "title": "Perfect Irish B&B Experience",
+    "review": "Brennan's exceeded all our expectations! Mary's breakfast was incredible - the homemade brown bread alone was worth the stay. The ocean view room was spotless and comfortable. Pat gave us excellent recommendations for local pubs and hiking routes. We'll definitely be back!",
+    "tripType": "Couple",
+    "stayDuration": "3 nights",
+    "roomType": "Ocean View King Room",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "guestName": "Hans & Ingrid Mueller",
+    "country": "Germany",
+    "date": "2024-08-22",
+    "rating": 5,
+    "title": "Warm Welcome and Stunning Location",
+    "review": "This is our third time staying at Brennan's and it gets better every visit. The location is perfect for exploring the Cliffs of Moher and the Burren. Siobhan helped us book a wonderful boat trip to the Aran Islands. Breakfast is always a highlight!",
+    "tripType": "Couple",
+    "stayDuration": "4 nights",
+    "roomType": "Atlantic Suite",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "guestName": "The O'Brien Family",
+    "country": "Ireland",
+    "date": "2024-07-10",
+    "rating": 5,
+    "title": "Wonderful Family Stay",
+    "review": "Traveled with our two kids (ages 8 and 11) and couldn't have asked for a better place. The family room was spacious, the breakfast accommodated our youngest's allergies perfectly, and the location gave us easy access to beaches and caves. Mary and Pat treated us like family!",
+    "tripType": "Family",
+    "stayDuration": "2 nights",
+    "roomType": "Family Room",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "guestName": "Emma Clarke",
+    "country": "United Kingdom",
+    "date": "2024-09-01",
+    "rating": 5,
+    "title": "Solo Traveler Heaven",
+    "review": "As a solo female traveler, I felt completely safe and welcome. The garden view room was my peaceful retreat after days of hiking. The Brennans shared great local knowledge and even packed me a lunch for my cliff walk. Genuine Irish hospitality at its finest.",
+    "tripType": "Solo",
+    "stayDuration": "5 nights",
+    "roomType": "Garden View Double Room",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "guestName": "Pierre & Amelie Dubois",
+    "country": "France",
+    "date": "2024-06-18",
+    "rating": 5,
+    "title": "Magnifique!",
+    "review": "The most beautiful B&B we've stayed in during our two weeks in Ireland. Impeccably clean, wonderful views, and the friendliest hosts. The breakfast was absolutely delicious with local ingredients. Perfect location for visiting Doolin's music pubs in the evening.",
+    "tripType": "Couple",
+    "stayDuration": "2 nights",
+    "roomType": "Ocean View King Room",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "guestName": "James & Linda Patterson",
+    "country": "Canada",
+    "date": "2024-08-05",
+    "rating": 5,
+    "title": "Best B&B on Our Ireland Trip",
+    "review": "We stayed in 6 different B&Bs during our Ireland tour, and Brennan's was hands-down the best. The Atlantic Suite was luxurious, the breakfast incredible, and Mary, Pat, and Siobhan made us feel like old friends. Already planning our return visit!",
+    "tripType": "Couple",
+    "stayDuration": "3 nights",
+    "roomType": "Atlantic Suite",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "guestName": "Sophie Anderson",
+    "country": "Australia",
+    "date": "2024-07-28",
+    "rating": 5,
+    "title": "Unforgettable Stay",
+    "review": "Traveling through Ireland from Australia, and this was the highlight of our trip. The views from our room were breathtaking, the bed was so comfortable, and the full Irish breakfast set us up perfectly for our daily adventures. Can't recommend highly enough!",
+    "tripType": "Friends",
+    "stayDuration": "2 nights",
+    "roomType": "Superior Twin Room",
+    "featured": false
+  }
+]

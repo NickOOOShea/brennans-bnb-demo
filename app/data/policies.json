@@ -1,0 +1,108 @@
+{
+  "checkIn": {
+    "standard": "15:00",
+    "latest": "21:00",
+    "early": "Early check-in available by arrangement - please contact us in advance",
+    "lateArrival": "Late arrivals after 21:00 must be arranged in advance. Self check-in instructions can be provided if needed.",
+    "requirements": [
+      "Valid photo ID required for all guests",
+      "Credit card for incidental charges"
+    ]
+  },
+  "checkOut": {
+    "standard": "11:00",
+    "late": "Late checkout subject to availability - please ask at check-in",
+    "express": "Express checkout available - settle your bill the night before",
+    "luggage": "Luggage storage available if you'd like to explore Doolin before departure"
+  },
+  "cancellation": {
+    "standard": {
+      "days": 7,
+      "policy": "Free cancellation up to 7 days before arrival",
+      "penalty": "Cancellations within 7 days: one night's accommodation will be charged"
+    },
+    "noShow": "No-shows will be charged the full reservation amount",
+    "amendments": "Booking amendments subject to availability - please contact us as soon as possible",
+    "weather": "We understand the Irish weather! In case of severe weather warnings, we'll work with you on flexible arrangements."
+  },
+  "payment": {
+    "deposit": "A deposit of 30% is required to secure your booking",
+    "balance": "Remaining balance due on arrival",
+    "methods": ["Cash (EUR)", "Credit Card (Visa, Mastercard)", "Debit Card", "Bank Transfer"],
+    "currency": "All prices in EUR",
+    "directBookingBenefit": "Book direct for our best rate guarantee and complimentary room upgrade (subject to availability)"
+  },
+  "houseRules": [
+    {
+      "title": "Quiet Hours",
+      "description": "Please respect other guests by keeping noise to a minimum between 22:00 and 08:00",
+      "icon": "volume-x"
+    },
+    {
+      "title": "No Smoking",
+      "description": "Brennan's Seaside B&B is a completely non-smoking property. Smoking permitted in designated outdoor areas only.",
+      "icon": "smoking-no"
+    },
+    {
+      "title": "No Pets",
+      "description": "Unfortunately, we cannot accommodate pets. Service animals are welcome with advance notice.",
+      "icon": "paw-print"
+    },
+    {
+      "title": "Children Welcome",
+      "description": "Children of all ages welcome! Please let us know ages in advance so we can prepare appropriate amenities.",
+      "icon": "baby"
+    },
+    {
+      "title": "Breakfast Times",
+      "description": "Breakfast served 08:00 - 10:00. Earlier times available by request for early departures or tours.",
+      "icon": "clock"
+    },
+    {
+      "title": "WiFi Access",
+      "description": "Free high-speed WiFi throughout. Password provided at check-in.",
+      "icon": "wifi"
+    },
+    {
+      "title": "Parking",
+      "description": "Free on-site parking for all guests. One space per room.",
+      "icon": "car"
+    },
+    {
+      "title": "Key Collection",
+      "description": "Please collect your room key from reception. Keys must be returned at checkout.",
+      "icon": "key"
+    }
+  ],
+  "childrenAndBeds": {
+    "childrenAllowed": true,
+    "cribs": {
+      "available": true,
+      "ageLimit": "Up to 2 years",
+      "cost": "Free of charge"
+    },
+    "extraBeds": {
+      "available": false,
+      "note": "No extra beds available. Our Family Room accommodates up to 4 guests comfortably."
+    },
+    "childPricing": "Children under 3 stay free when using existing beds. Children 3-12 years charged €15 per night for breakfast."
+  },
+  "groups": {
+    "policy": "Groups of 3+ rooms should contact us directly for special rates and arrangements",
+    "events": "Please note: We do not accommodate stag/hen parties"
+  },
+  "accessibility": {
+    "groundFloorRooms": true,
+    "wheelchairAccess": "Partial wheelchair access. Our Garden View rooms are on the ground floor. Please contact us to discuss specific requirements.",
+    "assistance": "We're happy to help guests with mobility requirements - please let us know your needs when booking"
+  },
+  "sustainability": {
+    "practices": [
+      "We source breakfast ingredients from local Clare farms and suppliers",
+      "Energy-efficient heating and lighting throughout",
+      "Recycling and composting program",
+      "Water conservation measures",
+      "Support for local businesses and community"
+    ]
+  }
+}
